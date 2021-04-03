@@ -177,7 +177,7 @@ footer .about {
   color: blanchedalmond;
 }
 
-@media (max-width: 502px) {
+@media (max-width: 500px) {
   .header {
     overflow-y: hidden;
     overflow-x: hidden;
