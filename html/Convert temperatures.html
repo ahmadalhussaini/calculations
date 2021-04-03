@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="..\css\Convert temperatures.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1><span>Convert</span> temperatures</h1>
+    </div>
+    <div class="head">
+      <div class="Celsius">
+        <label class="label1">Celsius</label>
+        <input id="input1" type="text" />
+        <label class="a">C<sup>ْ</sup></label>
+      </div>
+      <div class="Fahrenheit">
+        <label class="label2">Fahrenheit</label>
+        <input id="input2" type="text" />
+        <label class="a">F<sup>ْ</sup></label>
+      </div>
+
+      <div class="mybutton">
+        <button class="buut1" onclick=" clean()">Reset</button>
+
+        <button class="buut2" onclick="swap()">swap</button>
+      </div>
+    </div>
+    <p>Equations</p>
+
+    <p>F to C Example: (50°F - 32) * .5556 = 10°C</p>
+
+    <p>C to F Example: (30°C * 1.8) + 32 = 86°F</p>
+    <script src="..\javascript\Convert temperatures.js"></script>
+  </body>
+</html>

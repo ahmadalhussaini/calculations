@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+}
+.SocialMedia .fa {
+  font-size: 40px;
+  margin: 40px 0 0 40px;
+  color: white;
+}
+.header {
+  height: 600px;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  background: url("interface.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headline {
+  float: right;
+  display: flex;
+  width: 500px;
+  height: 200px;
+}
+
+.headline .titleleft .all {
+  color: white;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  transform: scale(1.5, 1.7);
+}
+.headline .titleright .mathematical {
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 56px 0 0 36px;
+}
+.headline .titleright .operations {
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 2px 0 0 35px;
+  transform: scale(1, 1.2);
+}
+.definition {
+  padding: 5px;
+  width: 70%;
+  animation: definition 5s forwards linear;
+}
+.definition h1 {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@keyframes definition {
+  0% {
+    opacity: 0.2;
+    margin: 20px 0 0 -400px;
+  }
+  25% {
+    opacity: 0.3;
+    margin: 20px 0 0 -200px;
+  }
+  50% {
+    opacity: 0.7;
+    margin: 20px 0 0 0px;
+  }
+  100% {
+    opacity: 1;
+    margin: 20px 0 0 200px;
+  }
+}
+
+.buttonofoperation {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.buttonofoperation div {
+  margin: 20px 40px 20px 40px;
+  height: 200px;
+  text-align: center;
+  border-radius: 50%;
+  width: 200px;
+  color: black;
+  transition: all 1s;
+
+  background-color: rgb(71, 97, 88);
+}
+.buttonofoperation div:hover {
+  background-color: rgb(217, 196, 167);
+  transform: scale(1.1, 1.1);
+}
+
+.buttonofoperation .anothercolor {
+  background-color: rgb(217, 196, 167);
+}
+.buttonofoperation .anothercolor:hover {
+  background-color: rgb(71, 97, 88);
+}
+
+.buttonofoperation div .fa {
+  margin-top: 40px;
+  font-size: 60px;
+  color: black;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.buttonofoperation div hr {
+  background-color: black;
+  color: black;
+
+  height: 2px;
+}
+.buttonofoperation div p {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  color: black;
+}
+footer {
+  display: flex;
+  height: 600px;
+  background-color: black;
+  color: blanchedalmond;
+  margin-top: 50px;
+}
+footer .location {
+  width: 50%;
+
+  height: 100%;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 440px;
+  width: 550px;
+  margin: 73px auto;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 440px;
+  width: 550px;
+
+  box-shadow: -10px -10px 5px rgb(71, 97, 88), 10px 10px 5px rgb(71, 97, 88);
+  border-radius: 10%;
+  border: 3px solid rgb(179, 22, 22);
+}
+footer .about {
+  width: 50%;
+}
+.informationabout {
+  margin: 130px 0 0 50px;
+}
+.informationabout p {
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(109, 111, 115);
+}
+.informationabout .fa {
+  font-size: 50px;
+  margin-left: 20px;
+}
+.informationabout .SocialMedia2 a {
+  color: blanchedalmond;
+}
+
+@media (max-width: 502px) {
+  .header {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: thistle;
+    height: 600px;
+    display: inline-block;
+  }
+  .headline {
+    margin: -10px -50px 0 0;
+  }
+
+  .headline .titleleft .all {
+    font-size: 50px;
+    margin-left: 50px;
+  }
+  .headline .titleright .mathematical {
+    font-size: 20px;
+    margin: 56px 0 0 36px;
+  }
+  .headline .titleright .operations {
+    font-size: 30px;
+    margin: 2px 0 0 35px;
+  }
+  .definition {
+    padding: 5px;
+    width: 70%;
+    animation: definition1 4s forwards linear;
+  }
+  @keyframes definition1 {
+    0% {
+      opacity: 0.2;
+      margin: 20px 0 0 -160px;
+    }
+    25% {
+      opacity: 0.3;
+      margin: 20px 0 0 -80;
+    }
+    50% {
+      opacity: 0.7;
+      margin: 20px 0 0 0;
+    }
+    100% {
+      opacity: 1;
+      margin: 20px 0 0 80px;
+    }
+  }
+  footer {
+    height: 1000px;
+    display: block;
+  }
+  footer .location {
+    height: 400px;
+    width: 100%;
+  }
+
+  .mapouter {
+    text-align: right;
+    height: 380px;
+    width: 380px;
+    display: inline-block;
+    margin: 40px 50px 40px 50px;
+  }
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 380px;
+    width: 380px;
+
+    box-shadow: -5px -5px 5px rgb(71, 97, 88), 5px 5px 5px rgb(71, 97, 88);
+    border-radius: 10%;
+    border: 3px solid rgb(179, 22, 22);
+  }
+  footer .about {
+    width: 100%;
+  }
+  footer br {
+    display: none;
+  }
+}
