@@ -187,19 +187,19 @@ footer .about {
   }
 
   .headline {
-    transform: translatex(40px);
+    margin: -10px -70px 0 0;
   }
 
   .headline .titleleft .all {
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 50px;
   }
   .headline .titleright .mathematical {
     font-size: 20px;
-    margin: 56px 0 0 36px;
+    margin: 40px 0 0 36px;
   }
   .headline .titleright .operations {
-    font-size: 30px;
+    font-size: 25px;
     margin: 2px 0 0 35px;
   }
   .definition {
@@ -222,7 +222,7 @@ footer .about {
     }
     100% {
       opacity: 1;
-      margin: 20px 0 0 80px;
+      margin: 20px 0 0 60px;
     }
   }
   footer {
