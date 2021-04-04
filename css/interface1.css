@@ -15,6 +15,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+a {
+  text-decoration: none;
+}
 
 .headline {
   margin-left: 60%;
