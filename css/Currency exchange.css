@@ -34,7 +34,7 @@ option {
 }
 .area {
   height: 50px;
-  width: 470px;
+  width: 420px;
   margin: auto;
   margin-top: 40px;
   border: 1px solid black;
@@ -59,9 +59,10 @@ footer a {
   float: right;
   color: aliceblue;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   body {
     height: 800px;
+    width: 600px;
     background-size: cover;
   }
 }

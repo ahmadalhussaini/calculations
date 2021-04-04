@@ -70,6 +70,7 @@ table {
 @media (max-width: 500px) {
   body {
     height: 650px;
+    width: 500px;
   }
 
   td {

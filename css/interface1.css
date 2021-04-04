@@ -17,10 +17,8 @@ body {
 }
 
 .headline {
-  float: right;
+  margin-left: 60%;
   display: flex;
-  width: 500px;
-  height: 200px;
 }
 
 .headline .titleleft .all {
@@ -177,7 +175,7 @@ footer .about {
   color: blanchedalmond;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 770px) {
   .header {
     overflow-y: hidden;
     overflow-x: hidden;
@@ -187,19 +185,20 @@ footer .about {
   }
 
   .headline {
-    margin: -10px -70px 0 0;
+    margin-top: 10px;
+    margin-left: 10%;
   }
 
   .headline .titleleft .all {
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 50px;
   }
   .headline .titleright .mathematical {
-    font-size: 20px;
-    margin: 40px 0 0 36px;
+    font-size: 15px;
+    margin: 26px 0 0 36px;
   }
   .headline .titleright .operations {
-    font-size: 25px;
+    font-size: 20px;
     margin: 2px 0 0 35px;
   }
   .definition {
@@ -220,14 +219,20 @@ footer .about {
       opacity: 0.7;
       margin: 20px 0 0 0;
     }
+    75% {
+      opacity: 0.8;
+      margin: 20px 0 0 50px;
+    }
     100% {
       opacity: 1;
-      margin: 20px 0 0 60px;
+      margin: 20px auto;
+      margin-bottom: 0;
     }
   }
   footer {
     width: 100%;
-    height: 1000px;
+    height: 100%;
+    padding-bottom: 15%;
     display: block;
   }
   footer .location {
@@ -255,6 +260,7 @@ footer .about {
   }
   footer .about {
     width: 100%;
+    margin-top: -70px;
   }
   footer br {
     display: none;
