@@ -40,8 +40,9 @@ label {
 .Converting-lengths {
   margin: 10px auto;
   border: 1px solid black;
-  width: 530px;
-  height: 400px;
+  width: 600px;
+  height: 100%;
+  padding-bottom: 5%;
   text-align: center;
   background-image: linear-gradient(rgb(224, 215, 215), rgb(20, 20, 20));
   box-shadow: -5px -5px 5px rgb(19, 18, 18);
